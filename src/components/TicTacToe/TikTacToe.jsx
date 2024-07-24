@@ -62,10 +62,10 @@ export const TikTacToe = () => {
     const won = (winner) =>{
         setLock(true);
         if(winner==="X"){
-            tittleRef.current.innerHTML = `congratulation <img ${src='cross_icon'} />`;
+            tittleRef.current.innerHTML = `congratulation <img '${src=cross_icon}' />`;
         }
         else {
-             tittleRef.current.innerHTML = `congratulation <img ${src='circle_icon'} />`;
+             tittleRef.current.innerHTML = `congratulation <img '${src=circle_icon}' />`;
         }
     }
   return (
